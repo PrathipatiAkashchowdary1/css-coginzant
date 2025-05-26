@@ -1,0 +1,11 @@
+/* Header Styles */
+h1 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 18px;
+    color: #333;
+}

@@ -1,0 +1,51 @@
+/* Default link style */
+a {
+    color: #007BFF; /* Primary blue */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Hover effect */
+a:hover {
+    color: #ff5722; /* Orange on hover */
+    text-decoration: underline; /* Add underline */
+}
+
+/* Active (clicked) state */
+a:active {
+    color: #28a745; /* Green when clicked */
+}
+
+/* Visited state */
+a:visited {
+    color: #6c757d; /* Gray for visited links */
+}
+
+
+
+
+/* custtomize list */
+
+/* Ordered List (Numbers) */
+ol {
+    list-style-type: decimal; /* Numbered list */
+    list-style-position: inside; /* Align numbers inside */
+}
+
+/* Unordered List (Custom) */
+ul {
+    list-style-type: square; /* Square bullets */
+    padding-left: 20px; /* Adds spacing */
+}
+
+/* Remove bullets for navigation menu */
+.nav-menu {
+    list-style: none; /* Removes bullets */
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-menu li {
+    padding: 10px;
+    margin: 5px;
+}

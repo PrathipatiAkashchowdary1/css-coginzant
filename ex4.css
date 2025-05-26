@@ -1,0 +1,43 @@
+
+/* ============================= */
+/* Global Styling - HEX & RGBA Colors */
+/* ============================= */
+body {
+    background-color: #f4f4f4; /* Fallback Light Gray */
+    color: rgba(51, 51, 51, 0.9); /* Slight transparency for text */
+    font-family: Arial, sans-serif;
+}
+
+/* ============================= */
+/* Background Image with Fallback */
+/* ============================= */
+body {
+    background: #f4f4f4 url('cityscape.jpg') no-repeat center/cover;
+}
+
+/* ============================= */
+/* Gradient Header Section */
+/* ============================= */
+.header {
+    background: linear-gradient(to right, #007BFF, #004080); /* Blue Gradient */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* ============================= */
+/* Button Styling */
+/* ============================= */
+.button {
+    background-color: #ff5722; /* HEX orange */
+    color: rgba(255, 255, 255, 0.9); /* Slightly transparent white text */
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hover Effect */
+.button:hover {
+    background: linear-gradient(to right, #ff5722, #d84315); /* Darker orange gradient */
+}

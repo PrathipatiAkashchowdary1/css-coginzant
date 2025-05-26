@@ -1,0 +1,37 @@
+
+/* ============================= */
+/* Global Styles - Font Family & Size */
+/* ============================= */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px; /* Default font size */
+    line-height: 1.6; /* Improves readability */
+}
+
+/* ============================= */
+/* Headings - Font Weight & Style */
+/* ============================= */
+h1 {
+    font-weight: 700; /* Bold */
+    font-style: italic; /* Italicized */
+    text-align: center; /* Centered */
+}
+
+/* ============================= */
+/* Subheadings - Letter Spacing & Transformation */
+/* ============================= */
+h2 {
+    font-weight: 400;
+    letter-spacing: 2px; /* Adds spacing between letters */
+    text-transform: uppercase; /* Makes text uppercase */
+}
+
+/* ============================= */
+/* Descriptions - Adjust Line Height */
+/* ============================= */
+p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.8; /* Increase readability */
+    text-align: justify; /* Justifies text */
+}

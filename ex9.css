@@ -1,0 +1,15 @@
+
+/* News Article Styling */
+.news-article {
+    width: 80%;
+    margin: 20px auto;
+    column-count: 2; /* Two columns */
+    column-gap: 30px; /* Space between columns */
+    column-rule: 1px solid gray; /* Vertical separator */
+}
+
+/* Title Styling */
+.news-article h2 {
+    text-align: center;
+    color: #007BFF;
+}

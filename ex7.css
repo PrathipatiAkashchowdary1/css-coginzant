@@ -1,0 +1,28 @@
+/* General Table Styling */
+.styled-table {
+    width: 100%;
+    border-collapse: collapse; /* Remove extra spacing between borders */
+    text-align: center; /* Center text in cells */
+    background-color: #f8f9fa; /* Light background */
+}
+
+/* Header Styling */
+.styled-table th {
+    background-color: #007BFF; /* Primary blue */
+    color: white;
+    padding: 12px;
+    border: 2px solid #004080;
+}
+
+/* Cell Styling */
+.styled-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* ============================= */
+/* Zebra Striping Effect */
+/* ============================= */
+.styled-table tbody tr:nth-child(even) {
+    background-color: #e9ecef; /* Light gray for even rows */
+}
